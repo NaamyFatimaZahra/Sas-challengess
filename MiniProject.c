@@ -3,13 +3,16 @@
 
 //fonction d'ajoute.
 void Ajouter(){
-    char Titre[10];
-    gets(Titre);
-    puts(Titre);
+    char Titre[60][15];
+    printf("entrer le titre:");
+   for(int i=0;i<60;i++){
+    gets(Titre[i]);
+   }
 
 }
 
 int main(){
+
 Ajouter();
 
 }
